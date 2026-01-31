@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build"
+  publish = "/"  # leave this as root; plugin will override automatically
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
